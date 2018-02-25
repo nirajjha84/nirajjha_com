@@ -1,0 +1,97 @@
+
+@import 'global.css';
+
+/* login page */
+form.login-form {
+    margin-top: 50px;
+}
+form.login-form label {
+    min-width: 100px;
+    display: inline-block;
+}
+form.login-form input, form button {
+    padding:8px;
+    font-size: 18px;
+    min-width: 500px;
+}
+form.login-form button {
+    min-width: inherit;
+    background-color: #CC9900;
+    border: 1px solid #775900;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top:20px;
+    
+}
+
+form.login-form p {
+    margin-bottom: 20px;
+}
+
+.blue_btn {
+    background-color: #169BD5;
+    color: #FFF;
+    border:0px;
+    border-radius: 5px;
+    padding: 5px 10px 8px 10px;
+    margin-top:20px;
+    min-width: auto;
+}
+
+#login-header {
+    width: 300px;  
+}
+
+.top-level-error {
+    padding: 10px;
+    background:rgba(255, 255, 255,0.4);
+    margin-bottom: 20px;
+}
+
+.orange-box {
+    background: #ffff00;
+    width:200px;
+    height: 200px;
+    margin:0 20px 20px 0;
+    float: left;
+    cursor: pointer;
+    box-shadow:  0 8px 6px -6px #888888;
+}
+
+.redcolor-box {
+    background: #db0303;
+    width:200px;
+    height: 200px;
+    margin:0 20px 20px 0;
+    float: left;
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px orange inset;
+}
+
+ul.team {
+    list-style: none;
+}
+ul.team li {
+    float:left;
+    margin:0px 10px 10px 0px;
+    text-align: center;
+    border: 1px solid #000;
+    padding:10px;
+    max-width: 100px;
+    min-width: 100px;
+    min-height: 150px;
+}
+ul.team li img {
+    margin-bottom:10px;
+}
+
+.fouroFour h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+.fouroFour h1 span{
+    display: block;
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+{
+    "members": [
+        {
+            "name": "Beng Tiong Tang",
+            "image": "beng_tang.png"
+        },
+        {
+            "name": "Niraj Kumar Jha",
+            "image": "niraj_jha.png"
+        },
+        {
+            "name": "Jatin Suri",
+            "image": "jatin_suri.png"
+        },
+        {
+            "name": "Amit Kumar",
+            "image": "amit_kumar.png"
+        },
+        {
+            "name": "Parasmani Jain",
+            "image": "parasmani_jain.png"
+        },
+        {
+            "name": "Saurabh Nilegaonkar",
+            "image": "saurabh_nlegaonkar.png"
+        },
+        {
+            "name": "Bhawana Sharma",
+            "image": "bhawana_sharma.png"
+        },
+        {
+            "name": "Vimlesh Singh",
+            "image": "vimlesh_singh.png"
+        },
+        {
+            "name": "Vinayak Chopde"
+        },
+        {
+            "name": "Gaurav Pande",
+            "image": "gaurav_pandey.png"
+        }
+    ]
+}
