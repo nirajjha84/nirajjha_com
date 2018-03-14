@@ -1,0 +1,22 @@
+{
+    "project": "ETPC",
+    "subProject": "TPRM SF",
+
+    "nav": {
+        "home": "pages/home.html",
+        "design": "pages/design.html",
+        "code": "http://niraj.mybluemix.net/",
+        "build": "",
+        "quality": "pages/quality.html",
+        "test": "",
+        "performance": "",
+        "documentation": ""
+    },
+
+    "quality": {
+        "sf": "",
+        "gateway1": "http://niraj.mybluemix.net/",
+        "gateway2": "",
+        "gateway3": ""
+    }
+}

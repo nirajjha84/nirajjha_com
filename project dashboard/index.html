@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ETPC</title>
+
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+  <link href="assets/css/layout.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" id="project-name">App Name</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" id="sub-project">Sub Project</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <span class="navbar-text">
+        
+      </span>
+  </nav>
+
+
+
+  <div class="d-flex flex-row">
+
+    <!-- left navbar -->
+    <div class="left-nav mh-100" id="leftNav">
+      <a class="active" href="#" id="nav-home">
+        <i class="fa fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="#" class="leftNavItem" id="nav-design">
+          <i class="fas fa-object-group">
+            <span>Design</span>
+          </i>
+        </a>
+      <a href="#" id="nav-code">
+        <i class="fas fa-code-branch">
+          <span>Code</span>
+        </i>
+      </a>
+      <a href="#" id="nav-build">
+        <i class="fab fa-jenkins">
+          <span>Build</span>
+        </i>
+      </a>
+      <a href="#" id="nav-quality">
+        <i class="fa fa-thumbs-up">
+          <span>Quality</span>
+        </i>
+      </a>
+      <a href="#" id="nav-test">
+          <i class="fas fa-stethoscope">
+            <span>Test</span>
+          </i>
+        </a>
+      <a href="#" id="nav-performance">
+        <i class="fab fa-connectdevelop">
+          <span>Performance</span>
+        </i>
+      </a>
+      <a href="#" id="nav-documentation">
+          <i class="fas fa-book">
+            <span>Documentation</span>
+          </i>
+        </a>
+    </div>
+    <!-- left nabvbar end -->
+
+    <!-- right section -->
+    <div class="w-100 h-100 d-inline-block">
+        <!-- pages -->
+        <iframe src="pages/home.html" class="iframe-body" id="page-content" allowTransparency="true" frameborder="0"></iframe>
+
+    </div>
+    <!-- right section end -->
+  </div>
+
+  <!-- /.container -->
+
+
+  <!-- jQuery -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <!-- custom -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
